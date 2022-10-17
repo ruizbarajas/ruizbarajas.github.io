@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title> Eyeliner Survey</title>
+
+<style>
+  main{
+    text-align: center;
+    font-size: 2vw;
+    font-family: cursive;
+    padding: 5%;
+    background-position: center;
+    border-radius: 30px 30px;
+    background-color: rgba(155, 240, 134,.7);
+    border-style: double;
+    border-width: 8px;
+  }
+  body {
+    background-image: url(https://i.pinimg.com/736x/f1/33/b0/f133b05a6c736fd95de2f8365a338fdd.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  h1{
+
+   background-color:rgba(42, 99, 28,.8);
+   border-radius: 300px 300px;
+   border-style: double;
+   border-width: 10px;
+  text-align: center;
+    font-size: 4vw;
+    font-family: cursive;
+    padding:2% ;
+
+  }
+
+
+  
+</style>
+
+
+
+
+</head>
+
+
+<body>
+<h1 id="title">
+  Maria's Eyeliners 
+</h1>
+<main>
+<p id="description" >
+  Thank you for taking the time to help improve our product.<br> Our eyeliners are made to help espress your creativity through art. 
+</p>
+
+<form id="survey-form">
+  <label id="name-label"> 
+  <input required type="text" id="name" placeholder="Enter name here">
+     Name
+  </input> <br>
+  </label>
+
+<label id="email-label">
+<input required type="email" name ="user_email" id ="email" placeholder="Enter email here">
+ Email 
+  </input>
+  </label>
+
+ <br>
+ <label id="number-label">
+ <input required type="number" placeholder="Age"id="number" name="qty" min="1" max="90">
+ Enter Age 
+ </input>
+  </label>
+<br>
+
+<h2>
+  Which eyeliner do you use?
+</h2>
+  <select name = "Eyeliners" id="dropdown">
+   <label> <option>
+     Liquid  
+      </option></label>
+
+      <option selected> Pencil   </option> 
+
+      <option>
+        Gel Tip 
+        </option> 
+
+        <option>
+          Felt-tip
+          </option>
+
+    </select><br>
+    
+
+<br>
+
+  <h2> 
+    Would you reccomend our product to a friend?
+    </h2>
+
+    <label><input type="radio" name="product" value="Y">
+    Yes
+    </input></label>
+   <label> <input type= "radio" name="product" value="N">
+    No
+  </input></label>
+  <br>
+
+  <h3>
+    Choose the reason why you like our product.
+  </h3>
+
+    <label><input type="checkbox" name="reason" value="Pigmented"> Pigmented
+      </input></label>
+    <label><input type="checkbox" name="reason" value="Long lasting">Long lasting
+    </input></label>
+   <label> <input type="checkbox" name="reason" value="Easy application">
+    Easy application
+    </input></label>
+<br>
+
+<h3>
+  Additional comments to help improve our product.
+</h3>
+    <textarea name ="Comments" placeholder="Additional Comments" cols="30" rows="5">
+    </textarea>
+    <button id="submit"> Submit
+      </button>
+      <br id="end">
+
+
+</form>
+   
+ 
+
+
+
+</form>
+</body>
+</main>
+</html>

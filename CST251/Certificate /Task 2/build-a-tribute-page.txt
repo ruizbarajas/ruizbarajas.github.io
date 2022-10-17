@@ -1,0 +1,50 @@
+** start of undefined **
+
+
+<head>
+  <style>
+    img{
+      display:block;
+      max-width:100%;
+      
+    }
+    </style>
+
+  </head>
+
+<main id="main">
+<h1 id="title">
+      Dr.Norman Borloug
+
+  </h1>
+
+<body>
+  <figure id="img-div">
+    
+        <img id="image" src="https://media.istockphoto.com/photos/gentoo-penguin-having-fun-picture-id517489423?b=1&k=20&m=517489423&s=170667a&w=0&h=3svk7dDYK3NI4olAu3Qv38ReYFh7fuuhBB-ueJNM9bw=">
+        
+        <figcaption id="img-caption">
+          caption of img
+
+          </figcaption>
+    
+  </figure>
+<p id="tribute-info">
+  textual context describign tribute page 
+</p>
+
+<a id="tribute-link" target="_blank" href="">click 
+  </a>
+
+  </body>
+
+</main>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+

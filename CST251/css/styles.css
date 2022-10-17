@@ -1,0 +1,64 @@
+h2{
+      text-align: center;
+      font-family: sans-serif;
+      background-color: seashell;
+      padding: 20px;
+      margin-left:150px ;
+      margin-right:150px ;
+      border-radius: 70%;
+      border: 5px solid rgb(117, 178, 186);
+          }
+    footer{
+      background-color: rgb(117, 178, 186);
+        text-align: center;
+        padding: 30px;
+        color: whitesmoke;
+        font-family:unset ;
+        border: 12px double seashell ;
+    }
+    form{
+      margin: -17px;
+        background-color:rgb(117, 178, 186);
+      padding: 3%;
+      margin-left:1% ;
+      margin-right:1% ;
+      color: whitesmoke;
+      font-family: cursive;
+      border: 12px double seashell ;
+    }
+    legend
+    {
+      border:2px dashed; seashell  ;
+      padding: 10px;
+      margin-right:2% ;
+      margin-left: 2%;
+    }
+
+    button 
+    {
+      display: block;
+      margin-left:auto;
+       margin-right:auto;
+       height: 50px;
+       width: 100px;
+       border-radius: 10px;
+      background-color: rgba(223, 242, 241, .8);
+      color: rgb(34, 93, 115);
+      font-family: sans-serif;      
+
+    }
+    label 
+    {
+      color: blanchedalmond;
+
+    }
+
+    #url 
+    {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 10px;
+      background-color: rgba(223, 242, 241, .8);
+
+    }

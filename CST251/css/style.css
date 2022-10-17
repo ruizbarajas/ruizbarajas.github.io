@@ -1,0 +1,52 @@
+ body{
+        
+        
+        color: rgba(90,30,50,.8);
+        background-image: url(https://cdn.pixabay.com/photo/2016/09/05/21/37/cat-1647775__480.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+      }
+ h1{
+        background-color: rgba(184, 149, 222);
+        text-align: center;
+        padding: 25px 20px ;
+        border: 10px inset lightpink;
+        margin: 0% auto;
+        font-size: 6vw;
+        margin: 0 auto; /*centers block elements*/
+            font-family: 'Sofia' ;
+
+
+
+
+        
+        overflow: scroll;
+
+
+      }
+ main{
+        background-color: rgba(187, 173, 201, .5);
+        padding-left: 35px;
+        margin: 0 auto; /*centers block elements*/
+        font-family: 'Permanent Marker', cursive;
+
+      }
+
+ a{
+        color: rgba(222, 24, 87, 1.0);
+
+      }
+
+ ul{
+        color: red;
+        background-color: rgba(187, 173, 201);
+
+      }
+
+ img{
+        border: 8px inset lightpink;
+        border-radius: 70px 70px;
+        height: auto;
+        width: 50%;
+      }

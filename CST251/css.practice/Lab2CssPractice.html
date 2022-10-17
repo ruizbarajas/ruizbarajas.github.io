@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title> Css Lab2 Practice</title>
+
+<link href="./css/styles.css" rel="stylesheet">
+  <style>
+    h2{
+      text-align: center;
+      font-family: sans-serif;
+      background-color: seashell;
+      padding: 20px;
+      margin-left:150px ;
+      margin-right:150px ;
+      border-radius: 70%;
+      border: 5px solid rgb(117, 178, 186);
+          }
+    footer{
+      background-color: rgb(117, 178, 186);
+        text-align: center;
+        padding: 30px;
+        color: whitesmoke;
+        font-family:unset ;
+        border: 12px double seashell ;
+    }
+    form{
+      margin: -17px;
+        background-color:rgb(117, 178, 186);
+      padding: 3%;
+      margin-left:1% ;
+      margin-right:1% ;
+      color: whitesmoke;
+      font-family: cursive;
+      border: 12px double seashell ;
+    }
+    legend
+    {
+      border:2px dashed; seashell  ;
+      padding: 10px;
+      margin-right:2% ;
+      margin-left: 2%;
+    }
+
+    button 
+    {
+      display: block;
+      margin-left:auto;
+       margin-right:auto;
+       height: 50px;
+       width: 100px;
+       border-radius: 10px;
+      background-color: rgba(223, 242, 241, .8);
+      color: rgb(34, 93, 115);
+      font-family: sans-serif;      
+
+    }
+    label 
+    {
+      color: blanchedalmond;
+
+    }
+
+    #url 
+    {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 10px;
+      background-color: rgba(223, 242, 241, .8);
+
+    }
+    
+  </style>
+
+  </head>
+
+<body>
+
+   <header> 
+      <h1>Penguin Photo App </h1>   
+    </header>
+
+   <nav>
+      <! -- Add navagation here -->
+    </nav>
+
+    <h2>
+  	 Penguin Photos 
+    </h2>
+  
+
+   <figure>
+       <figcaption>
+
+        Click here for more 
+        <a target="_blank" href="file:///Users/mariaruiz/Desktop/CST%20251/Lab%201_20222908/Link_PenguinsLAB1_Pictures.html">Penguin Pictures!</a>
+
+
+        </figcaption>
+        <br>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIYwRDchxumZvQLjCz3It-aYHK6Wn37w53LA&usqp=CAU">
+  </figure><br>
+
+<main>
+    <h2>
+      Penguin List!
+    </h2>
+
+  <section>
+    <h3>
+      Things penguins <em>Love:</em>
+    </h3>
+
+    <ul>
+      <li>Sticks and stones</li><br>
+      <li>Swimming</li><br>
+      <li>Tobogganing</li><br>
+    </ul> 
+
+  <figure>
+       <img width="300" src="https://media.istockphoto.com/photos/gentoo-penguin-having-fun-picture-id517489423?b=1&k=20&m=517489423&s=170667a&w=0&h=3svk7dDYK3NI4olAu3Qv38ReYFh7fuuhBB-ueJNM9bw=">
+
+       <figcaption>
+        Tobogganing is when penguins <i>slide around</i> on their belly!
+      </figcaption>
+  </figure> 
+  </section>
+
+  <section>
+    <h3>
+      Top 3 things penguins hate:
+    </h3>
+
+    <ol>
+      <li>Leopard seals</li><br>
+      <li>Killer whales</li><br>
+      <li>Sharks</li><br>
+    </ol>
+
+    <figure>
+       <img width="300" src="https://media.istockphoto.com/photos/head-of-a-killer-whale-orca-picture-id94462135?b=1&k=20&m=94462135&s=170667a&w=0&h=hI2e9JjrYHIrLHw82_YtiJg2wBqPbIoZ523k7_zKmrw=">
+
+       <figcaption>
+       Penguins <b>HATE</b> preditors!!
+      </figcaption>
+  </figure> 
+  </section>
+  
+</main>
+
+    
+    <h2>
+      Penguin Form
+    </h2>
+
+
+<form>
+  <fieldset>
+      <legend class ="first"> Have you seen a Penguin Before? </legend>
+       
+       <label> <input type="radio" name="q1"> Yes </label>
+       <label> <input type="radio" name="q1"> No</label>
+  </fieldset><br>
+     
+  <fieldset> 
+      <legend class="first"> Where have you seen a Penguin?</legend>
+
+    <input type="Checkbox" name="os" value="At the Zoo"> At the Zoo
+    <input type="Checkbox" name="os" value="In the Artic"> In the Artic 
+    <input type="Checkbox" name="os" value="Documentaries"> Documentaries 
+
+ </fieldset> <br>
+
+ <input type="text"  name="username" id="url" required placeholder=" Insert penguin URL">
+
+
+ <button> Submit </button>
+
+
+
+</form>
+<br>
+<footer>
+  Ruiz 2022
+</footer>
+
+</body>
+</html>

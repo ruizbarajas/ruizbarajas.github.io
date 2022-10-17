@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>School of Computing and Design</title>
+	<style>
+	
+		footer{
+			background: rgba(225,23,26,1.00)
+			
+		}
+		
+		h1,h2{
+			background: rgba(136,204,233,1.00)
+			
+		}
+		
+		#cd-img
+		{
+			border-top-left-radius: 20px;
+			
+			
+		}
+		#cs-img{
+			border-bottom-right-radius: 40px
+		}
+		
+		.minorprogram-img{
+			border:15px double rgba(180,180,235,1.00)
+		}
+		
+		.degreeprograms-img{
+			border: 15px double rgba(14,74,224,1.00)
+		}
+		
+		p.highlight{
+			background: rgba(209,11,14,1.00)
+		}
+		
+		img.minorprogram-img:active{
+			width:500px;
+		}
+		nav ul li a:hoover{
+			font-size: 40px;
+			
+		}
+		
+	a.link:link 
+		{
+  color: mediumvioletred;
+
+		}
+
+	a.link:visited {
+  	color: green;
+	}
+
+	a.link:hover {
+  	color: hotpink;
+	}
+
+	a.link:active {
+  	color: blue;
+	}
+
+	nav{ 
+		position: fixed;
+		left:0px;
+		bottom:0px;
+		width:100%;
+		
+			
+		}
+		
+		#container{
+			width: 
+		}
+		
+		h3{
+			
+		}
+		
+		#cd-fig{
+			position: relative;
+			width: 300px;
+			
+		}
+		
+		#cd-fig:hover #cd-overlay{
+			display: block;
+			
+		}
+		
+		#cd-overlay{
+			position:absolute;
+			top:15px;
+			left:15px;
+			background-color: antiquewhite;
+			font-size: 1.2em;
+			padding: 5px;
+			display:none;
+			
+		}
+		
+		
+	</style>
+</head>
+
+<body>
+    <header>
+      <h1>School of Computing and Design</h1>
+    </header>
+    <nav>
+      <ul>
+        <li > <a class="link" href="#degreePrograms">Degreee Programs</a> </li>
+        <li> <a class="link" href="#minorPrograms">Minor Programs</a> </li>
+      </ul>
+    </nav>
+    
+    <main>
+    <p>The <span class="highlight">School of Computing and Design (SCD) </span>educates students to apply state-of-the-art information technology to solve real world communication problems in a socially responsible way. </p>
+    <p class="highlight">In addition to mastering the technical knowledge and skills, graduates of SCD programs excel in communication, collaboration and innovative problem solving.</p>
+    
+	<div id="container"> 
+		<h3>
+		Container 
+		</h3>	
+	</div>
+
+    <hr>
+    <h2 id="degreePrograms">Degree programs</h2>
+    <p>The School of Computing and Design (SCD) at CSUMB ha a comprehensive and intense focus on a broad spectrum of subjects and methods towards applying computing and design principles to solve real world problems.</p>
+    <figure id="cd-fig"> <img class="degreeprograms-img" id="cd-img" src="https://csumb.edu/media/csumb/migrated-content/d2jtc9c99zuy7wcloudfrontnet/bkVQxtniSKy5CzwTLrQ0_visual-401x267.jpg" alt="image for the CD program">
+      <figcaption> <a target="_blank" href="https://csumb.edu/scd/communication-design-bs/">Communication Design BS</a> 
+		  </figcaption>
+		
+		<div id="cd-overlay">
+			Information about the Cd program. The communication design program is the best. 
+		</div>
+		
+		
+    </figure>
+    <figure> <img class="degreeprograms-img" id="cs-img" src="https://csumb.edu/media/csumb/migrated-content/d2jtc9c99zuy7wcloudfrontnet/d8tkOtMTx2soTvEXS1sg_game_design--407x271.jpg" alt="image for the CD program">
+      <figcaption> <a target="_blank" href="https://csumb.edu/scd/computer-science-bs/">Computer Science BS</a> </figcaption>
+    </figure>
+    
+    <hr>
+    <h2 id="minorPrograms">Minor Programs</h2>
+    <p>Between the graduate and undergraduate degree programs, SCD serves about 700 residential students and about 180 online students. </p>
+    <p>Our students are provided with the foundational knowledge, academic tools, practical skills, and real-world opportunities necessary to advance as professionals in their careers and to become contributing members of our society.</p>
+    <ul>
+      <li>Minor in Communication Design</li>
+      <figure> <img class="minorprogram-img" src="https://csumb.edu/media/csumb/migration/live/tmp/migration/d2jtc9c99zuy7wcloudfrontnet/DBdqpneOT5WgeF31vw90_banner1-640x360.png"> </figure>
+      <li>Minor in CS and Information Systems</li>
+      <figure> <img class="minorprogram-img" src="https://csumb.edu/media/csumb/approved-image-selection/colleges/cos/Computer-Science.jpg"> </figure>
+    </ul>
+    </main>
+    
+    <footer> <img src="https://csumb.edu/media/csumb-logo-white.svg"> &copy;2022 </footer>
+</body>
+</html>

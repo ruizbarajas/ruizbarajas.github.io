@@ -1,0 +1,108 @@
+body{
+				background-color:black
+				
+			}
+			
+			h1{
+				color: yellow;
+				text-align: center; 
+				font-family: 'Pacifico', cursive;
+				font-size:max(2vw, 7vw);
+				margin:0 auto;
+			}
+			
+			.all-figure{
+				text-align: center;
+			}
+	
+			
+			
+			#first-row{
+				display:flex; justify-content:center
+				
+				
+			}
+			
+			
+			#spring{
+				border-top-left-radius:25px; 
+				border:1px solid yellow;
+				width:100%;
+				height:auto;
+			}
+			
+			#summer{
+				border-top-right-radius:25px; 
+				border:1px solid yellow;
+				width:100%; 
+				height:auto;
+
+			}
+			
+			#autumn{
+				border-bottom-left-radius:25px; 
+				border:1px solid yellow;
+				width:100%;
+				height:auto;
+				
+			}
+			
+			#winter{
+				border-bottom-right-radius:25px;
+				border:1px solid yellow;
+				width:100%; 
+				height:auto;
+				
+			}
+			
+			figcaption:hover{
+				
+  			background-color: grey;
+  			
+			}
+
+			figcaption{
+				color:white; font-size: 1.5em
+			}
+
+			
+			hr{
+				width:75%;
+				margin-top:20px
+				
+			}
+			
+			footer{
+				font-size:.8em; 
+				color:silver;text-align:center; 
+				top-padding:10px;
+				
+			}
+			
+			#monte{
+				width:100px
+			}
+
+			a{
+				text-align: center;
+				display: block;
+				margin-right:auto ;
+				margin-left: auto;
+				padding-bottom: 2%;
+			}
+
+			a:link {
+			  	color: #rgb(240, 228, 194);
+			}
+
+			a:visited {
+  			color: #rgb(158, 101, 219);
+			}
+
+			a:hover {
+ 			 color: #FF00FF;
+			}
+
+			a:active {
+ 			 color: #0000FF;
+			}

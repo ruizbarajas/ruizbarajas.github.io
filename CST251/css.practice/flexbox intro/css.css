@@ -1,0 +1,45 @@
+
+
+img {
+      width: 200px;
+
+    }
+
+  h1{
+    text-align: center;
+  }
+
+  body{
+    background-color: rgb(247, 153, 136);
+  }
+
+  h3{
+    display: block;
+    background-color: red;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin-right:43% ;
+    margin-left: 43%;
+
+  }
+
+  div{}
+
+
+
+
+  @media(max-width: 768px){
+    .row{
+      display: flex;
+      flex-wrap: wrap;
+      height: 100vh;
+      align-items: cemter;
+      justify-content:  center;
+      display: block; 
+
+
+  
+
+
+
