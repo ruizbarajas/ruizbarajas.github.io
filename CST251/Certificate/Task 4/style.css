@@ -1,0 +1,236 @@
+   body{
+    background-color: #383838;
+    font-family: sans-serif;
+   }
+
+   header{
+      display:flex;
+      position:fixed;
+      width: 100%;
+      background-color:white ;
+      justify-content: space-around;
+      top: 0;
+      left: 0;
+      border-bottom: 10px solid yellow;
+      padding-left: 20px;
+      padding-top: 10px;
+
+    }
+
+    header-img{
+      padding-left: 20px;
+    }
+
+    #merch{
+      display: flex;
+      background-color: rgba(20, 19, 19,.5);
+
+
+    }
+
+    #About{
+      color: deeppink;
+      font-size: 30px;
+      margin-left: 20px;
+      margin-bottom: -10px;
+    font-family: 'Archivo Black', sans-serif;
+    padding-top: 8px;
+
+
+    }
+
+
+
+    #head_prices{
+      color: deeppink;
+      font-size: 30px;
+      padding-left: 20px;
+      padding-top: 5px;
+    font-family: 'Archivo Black', sans-serif;
+    background-color: rgba(20, 19, 19,.5);
+    padding-bottom: 5px;
+
+
+
+    }
+
+    #VIDEO{
+      color: deeppink;
+      font-size: 30px;
+      padding-left: 50px;
+      padding-top: 5px;
+      margin-left: -20px;
+    font-family: 'Archivo Black', sans-serif;
+    background-color: rgba(20, 19, 19,.5);
+    padding-bottom: 5px;
+
+    }
+
+    #email{
+      color: deeppink;
+      font-size: 30px;
+      padding-left: 30px;
+      padding-top: 5px;
+      margin-left: -20px;
+    font-family: 'Archivo Black', sans-serif;
+    background-color: rgba(20, 19, 19,.5);
+    padding-bottom: 5px;
+
+    }
+
+    article{
+        background-color: rgba(20, 19, 19,.5);
+        padding-bottom: 20px;
+
+    }
+
+    #tv{
+      padding: 10px;
+      margin-top: px;
+    }
+
+
+    a{
+      text-decoration: none;
+      color: #000;
+
+
+    }
+
+    .prices{
+      color: white;
+      font-size: 20px;
+      text-align: center;
+
+    }
+
+    p{
+      padding-top: 5px;
+      margin-left: 20px;
+      color: white;
+      font-size: 20px;
+
+    }
+
+    nav ul  {
+      display: flex;
+
+      
+    }
+
+    nav ul li {
+      display: in
+        line;
+      padding: 4px;
+      margin:10px;
+      padding-right: 10px;
+    }
+
+    li{
+      list-style: none;
+      font-size: 19px;
+      border-right:2px solid black ;
+
+
+    }
+    
+    #logo-figure{
+      width: 60%;
+
+    }
+
+    #email_section{
+      background-color: rgba(20, 19, 19,.5);
+                  padding-bottom: 30px;
+                  padding-left: 20px;
+
+
+    }
+
+    #video_section{
+            background-color: rgba(20, 19, 19,.5);
+            padding-bottom: 10px;
+
+
+    }
+
+    #adventure_time_yt{
+      align-items: center;
+      margin-left:450px ;
+      padding: 15px;
+    }
+
+
+    
+    nav{
+      width:40%;
+    }
+
+    #price{
+      display: flex;
+    }
+
+    
+
+    .contentBox{
+      padding-top: 10px;
+      background-color: #38b0f5;
+      width:300px ;
+      height:400px ;
+      text-align: center;
+      margin: auto;
+      font-size: 20px;
+      
+    }
+
+    .content_title{
+      background-color: white;
+      margin-left:20px ;
+      margin-right:20px ;
+    }
+
+    .row{
+      display: flex;
+      height: 60vh;
+      width: 100vw;
+      justify-content: space-evenly;
+      align-items: center;
+      text-align: center;
+
+    }
+
+    form{
+      padding-left: 20px;
+
+    }
+
+    input{
+            padding-left: 20px;
+
+
+    }
+
+    #submit{
+      background-color: deeppink;
+      color: white;
+      font-family: 'Archivo Black', sans-serif;
+    }
+
+      @media (max-width: 1000px) {
+  .row{
+      display: flex;
+      height: 200vh;
+      width: 100vw;
+      justify-content: space-evenly;
+      align-items: center;
+      text-align: center;
+      }
+
+       #adventure_time_yt{
+      align-items: center;
+      margin-left:250px ;
+      padding: 15px;
+    }
+
+
+
